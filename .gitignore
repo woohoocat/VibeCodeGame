@@ -39,3 +39,19 @@
 
 # debug information files
 *.dwo
+
+# --- Visual Studio Specific ---
+.vs/                    # Chứa .ipch, .db, và các cấu hình cá nhân
+[Dd]ebug/               # Thư mục xuất file khi build Debug
+[Rr]elease/             # Thư mục xuất file khi build Release
+x64/                    # Thư mục build cho kiến trúc 64-bit
+x86/                    # Thư mục build cho kiến trúc 32-bit
+*.user                  # Cấu hình riêng của người dùng (đường dẫn local)
+*.sln.docstates         # Trạng thái đóng/mở file trong VS
+
+# --- Temporary/Build Files ---
+*.sdf                   # SQL Server Desktop Engine (Intellisense cũ)
+*.opensdf
+*.suo                   # Solution User Options
+*.cache
+*.log
